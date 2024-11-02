@@ -1,5 +1,5 @@
 .homePageWrapper {
-  height: 100vh;
+  /* height: 100vh; */
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -56,6 +56,7 @@ footer a {
   transition: all 0.3s ease-in-out;
   color: #fff;
   font-weight: 500;
+  text-decoration: none;
 }
 
 .startBtn:hover {
@@ -86,4 +87,30 @@ footer a {
 
 .navItem a:hover {
   color: #66B2FF;
+}
+
+/* Body */
+.bodySection {
+  background-color: #262222;
+  color: #fff;
+  padding: 2rem;
+  width: 100%;
+  text-align: center;
+  box-sizing: border-box;
+  margin-top: -200px;
+  height: 342px;
+  text-align: left;
+  box-sizing: border-box;
+  padding-left: 7rem;
+}
+
+.bodySection h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.bodySection p {
+  font-size: 16px;
+  color: #ffffffcc;
+  margin: 0;
 }
