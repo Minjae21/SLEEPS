@@ -2,23 +2,23 @@
   height: 100vh;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   color: #fff;
+  padding: 0 50px;
 }
 
 .formWrapper {
-  background: #282843;
-  padding: 20px;
-  border-radius: 10px;
-  width: 400px;
-  max-width: 90%;
+  display: flex;
+  flex-direction: column;
+  margin-left: 150px;
+  margin-bottom: 300px;
 }
 
 .logoImg {
-  width: 230px;
-  height: 180px;
-  border-radius: 30px;
-  margin-left: 80px;
+  width: 550px;
+  height: 350px;
+  margin-right: 100px;
+  margin-bottom: 300px;
 }
 
 footer {
@@ -32,61 +32,58 @@ footer a {
   text-decoration: none;
 }
 
-.inputGroup {
-  display: flex;
-  flex-direction: column;
+.btnWrapper {
+  margin-top: 10px;
 }
 
 .mainLabel {
-  margin-bottom: 20px;
-  margin-top: 20px;
+  font-size: 34px;
 }
 
-.inputBox {
-  padding: 10px;
-  border-radius: 5px;
-  outline: none;
-  border: none;
-  margin-bottom: 10px;
-  background: #eee;
-  font-size: 16px;
-  font-weight: bold;
+.subLabel {
+  font-size: 18px;
+  color: #ffffffac;
+  margin-top: -10px;
 }
 
-.btn {
-  border: none;
-  padding: 10px;
-  border-radius: 5px;
-  font-size: 16px;
-  cursor: pointer;
-  transition: all 0.3s ease-in-out;
-}
-
-.joinBtn {
-  background: #66B2FF;
-  width: 100px;
-  height: 35px;
+.startBtn {
+  background: #2984df;
+  width: 120px;
+  height: 50px;
   border-radius: 10px;
   font-size: 16px;
   margin-left: auto;
   transition: all 0.3s ease-in-out;
+  color: #fff;
+  font-weight: 500;
 }
 
-.joinBtn:hover {
+.startBtn:hover {
   background: #3572b0;
+  color: #ffffff8a;
 }
 
-.createInfo {
-  margin: 0 auto;
-  margin-top: 20px;
+/* NavBar */
+.navbar {
+  display: flex;
+  justify-content: flex-end;
+  padding: 1rem;
+  background-color: #262222;
 }
 
-.createNewBtn {
-  color: #66B2FF;
+.navList {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+.navItem a {
+  color: #fff;
   text-decoration: none;
-  transition: all 0.3s ease-in-out;
+  font-weight: 500;
+  padding-right: 30px;
 }
 
-.createNewBtn:hover, footer a:hover {
-  color: #3572b0;
+.navItem a:hover {
+  color: #66B2FF;
 }

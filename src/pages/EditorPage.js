@@ -1,11 +1,11 @@
 import React from 'react'
 
-const EditorPage = () => {
+const LanguagePage = () => {
   return (
     <div>
-        Edit
+        Language
     </div>
   )
 }
 
-export default EditorPage
+export default LanguagePage
