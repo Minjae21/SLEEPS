@@ -59,27 +59,34 @@ const UserInfoPage = () => {
         </div>
 
         <div className="form-row">
-          <label className="table-name">Height:</label>
-          <input
-            aria-invalid="false"
-            autoComplete="off"
-            placeholder="0"
-            required
-            type="number"
-            className="table-input"
-          />
-        </div>
+  <label className="table-name">Height:</label>
+  <div style={{ position: 'relative' }}>
+    <input
+      aria-invalid="false"
+      autoComplete="off"
+      placeholder="0"
+      required
+      type="number"
+      className="table-input with-unit"
+    />
+    <span className="unit-label">feet</span>
+  </div>
+</div>
 
-        <div className="form-row">
-          <label className="table-name">Weight:</label>
-          <input
-            aria-invalid="false"
-            autoComplete="off"
-            placeholder="0"
-            type="number"
-            className="table-input"
-          />
-        </div>
+  <div className="form-row">
+    <label className="table-name">Weight:</label>
+    <div style={{ position: 'relative' }}>
+      <input
+        aria-invalid="false"
+        autoComplete="off"
+        placeholder="0"
+        type="number"
+        className="table-input with-unit"
+      />
+      <span className="unit-label">lb</span>
+    </div>
+  </div>
+
 
         <div className="form-row">
           <label className="table-name">Sex:</label>

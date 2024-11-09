@@ -114,3 +114,10 @@ footer a {
   color: #ffffffcc;
   margin: 0;
 }
+
+.toggleBtn {
+  background-color: transparent;
+  border: none;
+  color: inherit;
+  cursor: pointer;
+}
